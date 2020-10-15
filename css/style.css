@@ -68,7 +68,7 @@ header .header-content nav .nav-left a {
   margin-left: 66px;
 }
 
-.content-section .three-blocks {
+.content-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,12 +80,12 @@ header .header-content nav .nav-left a {
   padding-top: 217px;
 }
 
-.content-section .three-blocks .content-left {
+.content-section .content-left {
   text-align: right;
   padding-left: 130px;
 }
 
-.content-section .three-blocks .content-left .reviews-text {
+.content-section .content-left .reviews-text {
   font-size: 19px;
   padding-right: 25px;
   font-family: "Poppins";
@@ -96,7 +96,7 @@ header .header-content nav .nav-left a {
   margin: 0;
 }
 
-.content-section .three-blocks .content-left .explore-text {
+.content-section .content-left .explore-text {
   padding-right: 25px;
   font-size: 38px;
   padding-top: 34px;
@@ -107,7 +107,7 @@ header .header-content nav .nav-left a {
   margin: 0;
 }
 
-.content-section .three-blocks .content-left .color-content {
+.content-section .content-left .color-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,7 +121,7 @@ header .header-content nav .nav-left a {
   padding-right: 25px;
 }
 
-.content-section .three-blocks .content-left .color-content .color-change p {
+.content-section .content-left .color-content .color-change p {
   padding-right: 25px;
   font-family: "Poppins Medium";
   color: #313131;
@@ -130,30 +130,30 @@ header .header-content nav .nav-left a {
   line-height: 1.2;
 }
 
-.content-section .three-blocks .content-left .price-part {
+.content-section .content-left .price-part {
   text-align: right;
   padding-top: 114px;
 }
 
-.content-section .three-blocks .content-left .price-part p {
+.content-section .content-left .price-part p {
   font-size: 155px;
   line-height: .75;
   font-family: "Poppins Light";
   color: #313131;
 }
 
-.content-section .three-blocks .content-left .price-part p span {
+.content-section .content-left .price-part p span {
   font-size: 72px;
   font-family: "Poppins Light";
   color: #313131;
   line-height: 1.055;
 }
 
-.content-section .three-blocks .content-center .sneakers-img {
+.content-section .content-center .sneakers-img {
   padding-left: 30px;
 }
 
-.content-section .three-blocks .content-right {
+.content-section .content-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -163,7 +163,7 @@ header .header-content nav .nav-left a {
   padding-top: 111px;
 }
 
-.content-section .three-blocks .content-right .right-texts {
+.content-section .content-right .right-texts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,7 +174,7 @@ header .header-content nav .nav-left a {
   margin-right: 136px;
 }
 
-.content-section .three-blocks .content-right .right-texts .adidas-text {
+.content-section .content-right .right-texts .adidas-text {
   font-size: 36px;
   margin: 0;
   font-family: "Poppins";
@@ -182,7 +182,7 @@ header .header-content nav .nav-left a {
   line-height: 0.833;
 }
 
-.content-section .three-blocks .content-right .right-texts .super-text {
+.content-section .content-right .right-texts .super-text {
   font-size: 48px;
   padding-top: 15px;
   font-family: "Poppins";
@@ -193,7 +193,7 @@ header .header-content nav .nav-left a {
   margin: 0;
 }
 
-.content-section .three-blocks .content-right .right-texts .shoe-text {
+.content-section .content-right .right-texts .shoe-text {
   padding-top: 29px;
   font-size: 24px;
   font-family: "Poppins";
@@ -204,7 +204,7 @@ header .header-content nav .nav-left a {
   margin: 0;
 }
 
-.content-section .three-blocks .content-right .right-texts .size-text {
+.content-section .content-right .right-texts .size-text {
   padding-top: 31px;
   font-size: 30px;
   font-family: "Poppins";
@@ -214,7 +214,7 @@ header .header-content nav .nav-left a {
   line-height: 0.6;
 }
 
-.content-section .three-blocks .content-right .right-texts .cart-link {
+.content-section .content-right .right-texts .cart-link {
   margin-top: 34px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -230,7 +230,7 @@ header .header-content nav .nav-left a {
   height: 49px;
 }
 
-.content-section .three-blocks .content-right .right-texts .cart-link a {
+.content-section .content-right .right-texts .cart-link a {
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -238,13 +238,161 @@ header .header-content nav .nav-left a {
   color: white;
 }
 
-@media only screen and (min-width: 1224px) {
-  .content-section .content-center {
+@media screen and (max-width: 1191px) {
+  .header-content {
+    width: 100%;
+    padding-top: 18px;
+    padding-left: 62px;
+  }
+  .header-content .headers-logo {
     display: block;
+  }
+  .header-content nav {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header-content nav .nav-right {
+    margin-right: 225px;
+  }
+  .header-content nav .nav-right a {
+    letter-spacing: 1px;
+    font-size: 9px;
+    font-family: "Poppins Medium";
+    color: #313131;
+    margin-left: 55px;
+    line-height: 1.875;
+  }
+  .header-content nav .nav-left a {
+    letter-spacing: 1px;
+    font-size: 9px;
+    font-family: "Poppins";
+    color: rgba(49, 49, 49, 0.6);
+    line-height: 1.875;
+    margin-left: 66px;
   }
 }
 
+.content-section {
+  width: 100%;
+}
+
+.content-section .content-right {
+  padding-top: 50px;
+}
+
+.content-section .content-right .right-texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 136px;
+}
+
+.content-section .content-right .right-texts .adidas-text {
+  font-size: 24px;
+  margin: 0;
+}
+
+.content-section .content-right .right-texts .super-text {
+  font-size: 28px;
+  padding-top: 15px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.content-section .content-right .right-texts .shoe-text {
+  padding-top: 29px;
+  font-size: 24px;
+  margin: 0;
+}
+
+.content-section .content-right .right-texts .size-text {
+  padding-top: 31px;
+  font-size: 30px;
+  margin: 0;
+}
+
+.content-section .content-right .right-texts .cart-link {
+  margin-top: 34px;
+  width: 155px;
+  height: 49px;
+}
+
+.content-section .content-right .right-texts .cart-link a {
+  font-size: 16px;
+}
+
+.content-section .content-left {
+  padding-left: 5px;
+}
+
+.content-section .content-left .reviews-text {
+  font-size: 10px;
+  padding-right: 25px;
+  padding-top: 32px;
+  margin: 0;
+}
+
+.content-section .content-left .explore-text {
+  padding-right: 25px;
+  font-size: 20px;
+  padding-top: 34px;
+  margin: 0;
+}
+
+.content-section .content-left .color-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 25px;
+}
+
+.content-section .content-left .color-content .color-change p {
+  padding-right: 25px;
+}
+
+.content-section .content-left .price-part {
+  padding-top: 50px;
+}
+
+.content-section .content-left .price-part p {
+  font-size: 72px;
+}
+
+.content-section .content-left .price-part p span {
+  font-size: 28px;
+}
+
+.content-section .content-center {
+  display: block;
+}
+
+.content-section .content-center .sneakers-img {
+  width: 250px;
+}
+
 @media screen and (max-width: 479px) {
+  .content-section {
+    width: 100%;
+  }
   .content-section .content-right {
     padding: 0;
     margin: 0;
