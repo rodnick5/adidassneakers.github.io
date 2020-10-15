@@ -1,0 +1,249 @@
+* {
+  text-transform: uppercase;
+  font-family: 'Poppins Regular';
+}
+
+body {
+  background-image: url("../img/BG_logo.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+}
+
+header .header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  padding-top: 18px;
+  padding-left: 62px;
+}
+
+header .header-content nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-content nav .nav-right {
+  margin-right: 225px;
+}
+
+header .header-content nav .nav-right a {
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-family: "Poppins Medium";
+  color: #313131;
+  margin-left: 55px;
+  line-height: 1.875;
+}
+
+header .header-content nav .nav-left a {
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgba(49, 49, 49, 0.6);
+  line-height: 1.875;
+  margin-left: 66px;
+}
+
+.content-section .three-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 749px;
+  width: 100%;
+  padding-top: 217px;
+}
+
+.content-section .three-blocks .content-left {
+  text-align: right;
+  padding-left: 130px;
+}
+
+.content-section .three-blocks .content-left .reviews-text {
+  font-size: 19px;
+  padding-right: 25px;
+  font-family: "Poppins";
+  color: #313131;
+  font-weight: bold;
+  line-height: 0.75;
+  padding-top: 32px;
+  margin: 0;
+}
+
+.content-section .three-blocks .content-left .explore-text {
+  padding-right: 25px;
+  font-size: 38px;
+  padding-top: 34px;
+  font-family: "Poppins";
+  color: #313131;
+  line-height: 0.75;
+  font-weight: bold;
+  margin: 0;
+}
+
+.content-section .three-blocks .content-left .color-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 25px;
+}
+
+.content-section .three-blocks .content-left .color-content .color-change p {
+  padding-right: 25px;
+  font-family: "Poppins Medium";
+  color: #313131;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.content-section .three-blocks .content-left .price-part {
+  text-align: right;
+  padding-top: 114px;
+}
+
+.content-section .three-blocks .content-left .price-part p {
+  font-size: 155px;
+  line-height: .75;
+  font-family: "Poppins Light";
+  color: #313131;
+}
+
+.content-section .three-blocks .content-left .price-part p span {
+  font-size: 72px;
+  font-family: "Poppins Light";
+  color: #313131;
+  line-height: 1.055;
+}
+
+.content-section .three-blocks .content-center .sneakers-img {
+  padding-left: 30px;
+}
+
+.content-section .three-blocks .content-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 111px;
+}
+
+.content-section .three-blocks .content-right .right-texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 136px;
+}
+
+.content-section .three-blocks .content-right .right-texts .adidas-text {
+  font-size: 36px;
+  margin: 0;
+  font-family: "Poppins";
+  color: #313131;
+  line-height: 0.833;
+}
+
+.content-section .three-blocks .content-right .right-texts .super-text {
+  font-size: 48px;
+  padding-top: 15px;
+  font-family: "Poppins";
+  letter-spacing: 2px;
+  font-weight: bold;
+  line-height: 0.8;
+  color: #313131;
+  margin: 0;
+}
+
+.content-section .three-blocks .content-right .right-texts .shoe-text {
+  padding-top: 29px;
+  font-size: 24px;
+  font-family: "Poppins";
+  color: #313131;
+  position: relative;
+  left: 0;
+  line-height: 1;
+  margin: 0;
+}
+
+.content-section .three-blocks .content-right .right-texts .size-text {
+  padding-top: 31px;
+  font-size: 30px;
+  font-family: "Poppins";
+  color: #313131;
+  font-weight: bold;
+  margin: 0;
+  line-height: 0.6;
+}
+
+.content-section .three-blocks .content-right .right-texts .cart-link {
+  margin-top: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #000;
+  width: 155px;
+  height: 49px;
+}
+
+.content-section .three-blocks .content-right .right-texts .cart-link a {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Poppins";
+  color: white;
+}
+
+.box {
+  width: 396px;
+  height: 300px;
+  position: absolute;
+  background-color: red;
+  top: 440px;
+  left: 0px;
+}
+/*# sourceMappingURL=style.css.map */
