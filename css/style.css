@@ -238,12 +238,15 @@ header .header-content nav .nav-left a {
   color: white;
 }
 
-.box {
-  width: 396px;
-  height: 300px;
-  position: absolute;
-  background-color: red;
-  top: 440px;
-  left: 0px;
+@media only screen and (min-width: 1224px) {
+  .content-section .content-center {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .content-section .content-center {
+    width: 150px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

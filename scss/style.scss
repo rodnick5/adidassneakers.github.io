@@ -191,3 +191,17 @@ header{
 }
 }
 }
+@media only screen and (min-width : 1224px) {
+    .content-section{
+        .content-center{
+            display: block;
+        }
+    }
+}
+@media screen and (max-width: 479px) {
+    .content-section{
+        .content-center{
+            width: 150px;
+        }
+    }
+}
