@@ -245,6 +245,14 @@ header .header-content nav .nav-left a {
 }
 
 @media screen and (max-width: 479px) {
+  .content-section .content-right {
+    padding: 0;
+    margin: 0;
+  }
+  .content-section .content-left {
+    margin: 0;
+    padding: 0;
+  }
   .content-section .content-center {
     width: 150px;
   }
