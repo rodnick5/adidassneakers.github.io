@@ -533,8 +533,6 @@ header{
             }
         }
     }
-}
-@media only screen and (max-width:768px){
     .content-section{
         display: block;
         padding-top: 100px;
@@ -560,9 +558,9 @@ header{
             position: absolute;
             left: 50%;
             top: 340px;
-            margin-left: -270px;
+            margin-left: -325px;
             .sneakers-img{
-                width: 540px;
+                width: 650px;
             }
         }
         .content-right{
@@ -570,7 +568,7 @@ header{
             position: absolute;
             left: 50%;
             margin-left: -100px;
-            top: 560px;
+            top: 610px;
             .adidas-text{
                 text-align: center;
             }
@@ -586,6 +584,21 @@ header{
             .cart-link{
                 margin-left: 44px;
             }
+        }
+    }
+}
+@media only screen and (max-width:657px){
+    .content-section{
+        .content-left{
+
+        }
+        .content-center{
+            .sneakers-img{
+                width: 380px;
+            }
+        }
+        .content-right{
+
         }
     }
 }
