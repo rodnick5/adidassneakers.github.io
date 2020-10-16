@@ -38,6 +38,9 @@ header{
             align-items: center;
             .nav-right{
                 margin-right: 225px;
+                .menu-burger{
+                    display: none;
+                }
                 .search-input_hidden{
                     display: none;
                 }
@@ -393,6 +396,7 @@ header{
             padding-top: 75px;
         }
 }
+}
 @media screen and (max-width: 1279px){
     .content-section{
         .content-left{
@@ -474,4 +478,59 @@ header{
             }
         }
     }
-}}
+}
+@media only screen and (max-width: 1020px){
+    header{
+        .header-content{
+            padding-top: 30px;
+            .header-logo{
+                margin-left: 20px;
+            }
+            nav{
+                .nav-left{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 30px;
+                    a{
+
+                    }
+                }
+                .nav-right{
+                    a{
+                        display: none;
+                    }
+                    .menu-burger{
+                            z-index: 10;
+                            position: fixed;
+                            top: 57px;
+                            right: 40px;
+                            display: block;
+                            width: 100px;
+                            height: 100px;
+                            span , span:before , span:after{
+                                content: '';
+                                border-radius: 28%;
+                                position: fixed;
+                                height: 5px;
+                                width: 40px;
+                                display: block;
+                                background: #000;
+                                -webkit-border-radius: 28%;
+                                -moz-border-radius: 28%;
+                                -ms-border-radius: 28%;
+                                -o-border-radius: 28%;
+                                }
+                                span:after{
+                                    content: '';
+                                    margin-top: -10px;
+                                }
+                                span:before{
+                                    content: '';
+                                    margin-top: 10px;
+                        } 
+                    }
+                }
+            }
+        }
+    }
+}
