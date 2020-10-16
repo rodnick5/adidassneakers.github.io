@@ -264,7 +264,7 @@ header .header-content nav .nav-left a {
     padding-left: 14px;
   }
   header .header-content nav .nav-right {
-    margin-right: 30px;
+    margin-right: 50px;
   }
   header .header-content nav .nav-right a {
     letter-spacing: 1px;
@@ -276,7 +276,7 @@ header .header-content nav .nav-left a {
     margin-left: 66px;
   }
   .content-section .content-left {
-    padding-left: 35px;
+    padding-left: 75px;
   }
   .content-section .content-left .reviews-text {
     font-size: 12px;
@@ -304,11 +304,14 @@ header .header-content nav .nav-left a {
   .content-section .content-left .price-part p span {
     font-size: 50px;
   }
+  .content-section .content-center .sneakers-img {
+    width: 900px;
+  }
   .content-section .content-right {
     padding-top: 111px;
   }
   .content-section .content-right .right-texts {
-    margin-right: 35px;
+    margin-right: 75px;
   }
   .content-section .content-right .right-texts .adidas-text {
     font-size: 26px;
@@ -337,7 +340,7 @@ header .header-content nav .nav-left a {
 
 @media screen and (max-width: 1440px) {
   header .header-content nav .nav-right {
-    margin-right: 30px;
+    margin-right: 50px;
   }
   header .header-content nav .nav-right a {
     letter-spacing: 1px;
@@ -364,8 +367,8 @@ header .header-content nav .nav-left a {
     font-size: 14px;
     margin-left: 18px;
   }
-  .content-section .content-center {
-    width: 760px;
+  .content-section .content-center .sneakers-img {
+    width: 735px;
   }
 }
 

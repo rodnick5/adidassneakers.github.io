@@ -212,7 +212,7 @@ header{
 
         nav{
             .nav-right{
-                margin-right: 30px;
+                margin-right: 50px;
                 a{
                     letter-spacing: 1px;
                     font-size: 16px;
@@ -231,7 +231,7 @@ header{
     }
     .content-section{
         .content-left{
-            padding-left: 35px;
+            padding-left: 75px;
             .reviews-text{
                 font-size: 12px;
                 padding-right: 25px;
@@ -264,13 +264,15 @@ header{
             }
         }
         .content-center{
-
+            .sneakers-img{  
+                    width: 900px;
+            }
         }
         .content-right{
             padding-top: 111px;
     
                 .right-texts{
-                margin-right: 35px;
+                margin-right: 75px;
             .adidas-text{
                 font-size: 26px;
     
@@ -304,7 +306,7 @@ header{
         .header-content{
             nav{
                 .nav-right{
-                    margin-right: 30px;
+                    margin-right: 50px;
                     a{
                         letter-spacing: 1px;
                         font-size: 16px;
@@ -348,7 +350,10 @@ header{
 }
 .content-section{
     .content-center{
-        width: 760px;
+        .sneakers-img{
+            width: 735px;
+        }
+
     }
 }
 }
