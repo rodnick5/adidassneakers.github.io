@@ -1,6 +1,7 @@
 * {
   text-transform: uppercase;
-  font-family: 'Poppins Regular';
+  font-family: 'Poppins';
+  font-weight: 400;
 }
 
 html {
@@ -54,10 +55,27 @@ header .header-content nav .nav-right {
   margin-right: 225px;
 }
 
+header .header-content nav .nav-right .search-input_hidden {
+  display: none;
+}
+
+header .header-content nav .nav-right .search-input_showed {
+  position: absolute;
+  right: 520px;
+  top: 39px;
+  width: 250px;
+}
+
+header .header-content nav .nav-right .search-input_showed input {
+  width: 250px;
+  height: 30px;
+}
+
 header .header-content nav .nav-right a {
   letter-spacing: 1px;
   font-size: 16px;
-  font-family: "Poppins Medium";
+  font-family: "Poppins";
+  font-weight: 300;
   color: #313131;
   margin-left: 55px;
   line-height: 1.875;
@@ -66,6 +84,7 @@ header .header-content nav .nav-right a {
 header .header-content nav .nav-left a {
   letter-spacing: 1px;
   font-size: 16px;
+  font-weight: 400;
   font-family: "Poppins";
   color: rgba(49, 49, 49, 0.6);
   line-height: 1.875;
@@ -94,7 +113,7 @@ header .header-content nav .nav-left a {
   padding-right: 25px;
   font-family: "Poppins";
   color: #313131;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 0.75;
   padding-top: 32px;
   margin: 0;
@@ -107,7 +126,7 @@ header .header-content nav .nav-left a {
   font-family: "Poppins";
   color: #313131;
   line-height: 0.75;
-  font-weight: bold;
+  font-weight: 700;
   margin: 0;
 }
 
@@ -139,7 +158,8 @@ header .header-content nav .nav-left a {
 
 .content-section .content-left .color-content .color-change p {
   padding-right: 25px;
-  font-family: "Poppins Medium";
+  font-family: "Poppins";
+  font-weight: 500;
   color: #313131;
   font-size: 18px;
   margin: 0;
@@ -154,13 +174,15 @@ header .header-content nav .nav-left a {
 .content-section .content-left .price-part p {
   font-size: 155px;
   line-height: .75;
-  font-family: "Poppins Light";
+  font-family: "Poppins";
+  font-weight: 300;
   color: #313131;
 }
 
 .content-section .content-left .price-part p span {
   font-size: 72px;
-  font-family: "Poppins Light";
+  font-family: "Poppins";
+  font-weight: 300;
   color: #313131;
   line-height: 1.055;
 }
@@ -204,7 +226,7 @@ header .header-content nav .nav-left a {
   padding-top: 15px;
   font-family: "Poppins";
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 0.8;
   color: #313131;
   margin: 0;
@@ -226,7 +248,7 @@ header .header-content nav .nav-left a {
   font-size: 30px;
   font-family: "Poppins";
   color: #313131;
-  font-weight: bold;
+  font-weight: 700;
   margin: 0;
   line-height: 0.6;
 }
@@ -249,7 +271,7 @@ header .header-content nav .nav-left a {
 
 .content-section .content-right .right-texts .cart-link a {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 1px;
   font-family: "Poppins";
   color: white;

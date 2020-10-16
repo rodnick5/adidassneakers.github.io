@@ -1,6 +1,7 @@
 *{
     text-transform: uppercase;
-    font-family: 'Poppins Regular';
+    font-family: 'Poppins';
+    font-weight: 400;
 }
 html{
     overflow-x: hidden;
@@ -30,10 +31,25 @@ header{
             align-items: center;
             .nav-right{
                 margin-right: 225px;
+                .search-input_hidden{
+                    display: none;
+                }
+                .search-input_showed{
+                    position: absolute;
+                    right: 520px;
+                    top: 39px;
+                    width: 250px;
+                    input{
+                        width: 250px;
+                        height: 30px;
+
+                    }
+                }
                 a{
                     letter-spacing: 1px;
                     font-size: 16px;
-                    font-family: "Poppins Medium";
+                    font-family: "Poppins";
+                    font-weight: 300;
                     color: rgb(49, 49, 49);
                     margin-left: 55px;
                     line-height: 1.875;
@@ -44,6 +60,7 @@ header{
                 a{
                     letter-spacing: 1px;
                     font-size: 16px;
+                    font-weight: 400;
                     font-family: "Poppins";
                     color: rgba(49, 49, 49, 0.6);
                     line-height: 1.875;
@@ -68,7 +85,7 @@ header{
             padding-right: 25px;
             font-family: "Poppins";
             color: rgb(49, 49, 49);
-            font-weight: bold;
+            font-weight: 700;
             line-height: 0.75;
             padding-top: 32px;
             margin: 0;
@@ -80,7 +97,7 @@ header{
             font-family: "Poppins";
             color: rgb(49, 49, 49);
             line-height: 0.75;
-            font-weight: bold;
+            font-weight: 700;
             margin: 0;
         }
         .color-content{
@@ -99,7 +116,8 @@ header{
                 }
                 p{
                     padding-right: 25px;
-                    font-family: "Poppins Medium";
+                    font-family: "Poppins";
+                    font-weight: 500;
                     color: rgb(49, 49, 49);
                     font-size: 18px;
                     margin: 0;
@@ -114,12 +132,14 @@ header{
             p{
                 font-size: 155px;
                 line-height: .75;
-                font-family: "Poppins Light";
+                font-family: "Poppins";
+                font-weight: 300;
                 color: rgb(49, 49, 49);
                 
                 span{
                     font-size: 72px;
-                    font-family: "Poppins Light";
+                    font-family: "Poppins";
+                    font-weight: 300;
                     color: rgb(49, 49, 49);
                     line-height: 1.055;
                 }
@@ -156,7 +176,7 @@ header{
             font-family: "Poppins";
             letter-spacing: 2px;
             
-            font-weight: bold;
+            font-weight: 700;
             line-height: 0.8;
             color: rgb(49, 49, 49);
             margin: 0;
@@ -176,7 +196,7 @@ header{
             font-size: 30px;
             font-family: "Poppins";
             color: rgb(49, 49, 49);
-            font-weight: bold;
+            font-weight: 700;
             margin: 0;
             line-height: 0.6;
         }
@@ -190,7 +210,7 @@ header{
             height: 49px;
                 a{
                     font-size: 16px;
-                    font-weight: bold;
+                    font-weight: 700;
                     letter-spacing: 1px;
                     font-family: "Poppins";
                     color: rgb(255, 255, 255);
@@ -199,6 +219,8 @@ header{
     }
 }
 }
+
+
 
 @media screen and ( max-width: 1824px){
     body{
