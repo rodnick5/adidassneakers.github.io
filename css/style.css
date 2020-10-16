@@ -318,7 +318,7 @@ header .header-content nav .nav-left a {
     font-size: 18px;
   }
   .content-section .content-left .price-part {
-    padding-top: 114px;
+    padding-top: 80px;
   }
   .content-section .content-left .price-part p {
     font-size: 100px;
@@ -327,10 +327,10 @@ header .header-content nav .nav-left a {
     font-size: 50px;
   }
   .content-section .content-center .sneakers-img {
-    width: 900px;
+    width: 835px;
   }
   .content-section .content-right {
-    padding-top: 111px;
+    padding-top: 90px;
   }
   .content-section .content-right .right-texts {
     margin-right: 75px;
@@ -375,7 +375,7 @@ header .header-content nav .nav-left a {
   }
 }
 
-@media screen and (max-width: 1370px) {
+@media screen and (max-width: 1374px) {
   header .header-content nav .nav-right {
     margin-right: 50px;
   }
@@ -389,12 +389,21 @@ header .header-content nav .nav-left a {
     font-size: 14px;
     margin-left: 18px;
   }
+  .content-section .content-left {
+    padding-left: 70px;
+  }
+  .content-section .content-left .price-part {
+    padding-top: 65px;
+  }
   .content-section .content-center .sneakers-img {
     width: 735px;
   }
+  .content-section .content-right {
+    padding-top: 75px;
+  }
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1374px) and (max-width: 1279px) {
   .content-section .content-left {
     padding-left: 35px;
   }
@@ -422,7 +431,7 @@ header .header-content nav .nav-left a {
     font-size: 12px;
   }
   .content-section .content-left .price-part {
-    padding-top: 114px;
+    padding-top: 55px;
   }
   .content-section .content-left .price-part p {
     font-size: 72px;
@@ -430,26 +439,29 @@ header .header-content nav .nav-left a {
   .content-section .content-left .price-part p span {
     font-size: 30px;
   }
+  .content-section .content-center .sneakers-img {
+    width: 655px;
+  }
   .content-section .content-right {
-    padding-top: 111px;
+    padding-top: 60px;
   }
   .content-section .content-right .right-texts {
     margin-right: 35px;
   }
   .content-section .content-right .right-texts .adidas-text {
-    font-size: 26px;
+    font-size: 22px;
   }
   .content-section .content-right .right-texts .super-text {
-    font-size: 34px;
+    font-size: 26px;
     padding-top: 15px;
   }
   .content-section .content-right .right-texts .shoe-text {
     padding-top: 29px;
-    font-size: 18px;
+    font-size: 12px;
   }
   .content-section .content-right .right-texts .size-text {
     padding-top: 31px;
-    font-size: 22px;
+    font-size: 18px;
   }
   .content-section .content-right .right-texts .cart-link {
     margin-top: 34px;
