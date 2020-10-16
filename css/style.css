@@ -3,6 +3,10 @@
   font-family: 'Poppins Regular';
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-image: url("../img/BG_logo.png");
   background-repeat: no-repeat;
