@@ -483,7 +483,7 @@ header .header-content nav .nav-left a {
   }
 }
 
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
+@media only screen and (max-width: 1023px) {
   header .header-content {
     padding-top: 30px;
   }
@@ -533,16 +533,69 @@ header .header-content nav .nav-left a {
     content: '';
     margin-top: 10px;
   }
+}
+
+@media only screen and (max-width: 768px) {
   .content-section {
     display: block;
     padding-top: 100px;
   }
+  .content-section .content-left {
+    position: absolute;
+    left: 50%;
+    margin-left: -165px;
+    top: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content-section .content-left .explore-text {
+    display: none;
+  }
+  .content-section .content-left .reviews-text {
+    display: none;
+  }
+  .content-section .content-left .color-content {
+    display: none;
+  }
   .content-section .content-center {
     position: absolute;
     left: 50%;
+    top: 340px;
+    margin-left: -270px;
   }
   .content-section .content-center .sneakers-img {
-    width: 500px;
+    width: 540px;
+  }
+  .content-section .content-right {
+    -ms-flex-line-pack: center;
+        align-content: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    top: 560px;
+  }
+  .content-section .content-right .adidas-text {
+    text-align: center;
+  }
+  .content-section .content-right .super-text {
+    text-align: center;
+  }
+  .content-section .content-right .shoe-text {
+    text-align: center;
+  }
+  .content-section .content-right .size-text {
+    text-align: center;
+  }
+  .content-section .content-right .cart-link {
+    margin-left: 44px;
   }
 }
 /*# sourceMappingURL=style.css.map */
