@@ -413,7 +413,7 @@ header .header-content nav .nav-left a {
   }
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
   .content-section .content-left {
     padding-left: 35px;
   }
@@ -483,7 +483,7 @@ header .header-content nav .nav-left a {
   }
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
   header .header-content {
     padding-top: 30px;
   }
@@ -532,6 +532,17 @@ header .header-content nav .nav-left a {
   header .header-content nav .nav-right .menu-burger span:before {
     content: '';
     margin-top: 10px;
+  }
+  .content-section {
+    display: block;
+    padding-top: 100px;
+  }
+  .content-section .content-center {
+    position: absolute;
+    left: 50%;
+  }
+  .content-section .content-center .sneakers-img {
+    width: 500px;
   }
 }
 /*# sourceMappingURL=style.css.map */
