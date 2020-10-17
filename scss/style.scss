@@ -569,6 +569,7 @@ header{
             left: 50%;
             margin-left: -100px;
             top: 610px;
+                .right-texts{
             .adidas-text{
                 text-align: center;
             }
@@ -584,21 +585,108 @@ header{
             .cart-link{
                 margin-left: 44px;
             }
-        }
+        } }
     }
 }
 @media only screen and (max-width:657px){
+    header{
+        .header-content{
+            .header-logo{
+                width: 80px;
+                margin-left: 2px;
+                img{
+                    width: 80px;
+                }
+            }
+            nav{
+                .nav-left{
+
+                }
+                .nav-right{
+                    .menu-burger{
+                        display: flex;
+                        justify-content: flex-end;
+                    }
+                }
+            }
+        }
+    }
     .content-section{
         .content-left{
-
+            margin-left: -140px;
+            top: 140px;
+            .price-part{
+                p{
+                    font-size: 68px;
+                    span{
+                        font-size: 42px;
+                    }
+                }
+            }
         }
         .content-center{
+            top: 295px;
             .sneakers-img{
-                width: 380px;
+                margin-left: 145px;
+                width: 350px;
             }
         }
         .content-right{
+            top: 405px;
+        }
+    }
+}
+@media only screen and (max-width:375px){
+    header{
+        .header-content{
+            .header-logo{
+                display: none;
+            }
+            nav{
+                .nav-left{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    .content-section{
+        .content-left{
+            margin-left: -142px;
+            .price-part{
 
+            }
+        }
+        .content-center{
+            .sneakers-img{
+                margin-left: 148px;
+                width: 320px;
+            }
+        }
+            .content-right{
+                align-content: center;
+                position: absolute;
+                left: 50%;
+                margin-left: -100px;
+                top: 370px;
+                    .right-texts{
+                .adidas-text{
+                    text-align: center;
+                    font-size: 22px;
+                }
+                .super-text{
+                    text-align: center;
+                    font-size: 28px;
+                }
+                .shoe-text{
+                    text-align: center;
+                }
+                .size-text{
+                    text-align: center;
+                }
+                .cart-link{
+                    margin-left: 30px;
+                }
+            } 
         }
     }
 }
