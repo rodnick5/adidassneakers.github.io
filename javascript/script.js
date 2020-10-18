@@ -1,6 +1,5 @@
-let seacrh = document.getElementById('page-search');
-let input = document.getElementById('input-block');
-seacrh.addEventListener('click' , foo);
-function foo(){
-    input.classList.add('.search-input_showed');
+let input = document.getElementById('input-block')
+let search = document.getElementById('page-search');
+search.onclick = function (){
+    input.classList.toggle('search-input_showed');
 }

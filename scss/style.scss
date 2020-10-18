@@ -45,6 +45,7 @@ header{
                     display: none;
                 }
                 .search-input_showed{
+                    display: block;
                     position: absolute;
                     right: 520px;
                     top: 39px;
@@ -239,11 +240,20 @@ header{
     }
     header{
         .header-content{
-        padding-top: 14px;
-        padding-left: 14px;
-
-        nav{
+            transition: all 1s;
+            -webkit-transition: all 1s;
+            -moz-transition: all 1s;
+            -ms-transition: all 1s;
+            -o-transition: all 1s;
+            padding-top: 14px;
+            padding-left: 14px;
+            nav{
             .nav-right{
+                transition: all .5s;
+                -webkit-transition: all .5s;
+                -moz-transition: all .5s;
+                -ms-transition: all .5s;
+                -o-transition: all .5s;
                 margin-right: 50px;
                 a{
                     letter-spacing: 1px;
@@ -263,6 +273,11 @@ header{
     }
     .content-section{
         .content-left{
+            transition: all .5s;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            -ms-transition: all .5s;
+            -o-transition: all .5s;
             padding-left: 75px;
             .reviews-text{
                 font-size: 12px;
@@ -339,10 +354,20 @@ header{
             nav{
                 .nav-right{
                     margin-right: 50px;
-                    a{
+                    transition: all .5s;
+                    -webkit-transition: all .5s;
+                    -moz-transition: all .5s;
+                    -ms-transition: all .5s;
+                    -o-transition: all .5s;
+                a{
                         letter-spacing: 1px;
                         font-size: 16px;
                         margin-left: 42px;
+                        transition: all .5s;
+                        -webkit-transition: all .5s;
+                        -moz-transition: all .5s;
+                        -ms-transition: all .5s;
+                        -o-transition: all .5s;
                     }
                 }
                 .nav-left{
@@ -350,6 +375,11 @@ header{
                     a{
                         font-size: 16px;
                         margin-left: 40px;
+                        transition: all .5s;
+                        -webkit-transition: all .5s;
+                        -moz-transition: all .5s;
+                        -ms-transition: all .5s;
+                        -o-transition: all .5s;
                     }
                 }
             }
@@ -362,6 +392,11 @@ header{
             nav{
 
             .nav-right{
+                transition: all .5s;
+                -webkit-transition: all .5s;
+                -moz-transition: all .5s;
+                -ms-transition: all .5s;
+                -o-transition: all .5s;
                 margin-right: 50px;
                 a{
                     letter-spacing: 1px;
@@ -372,6 +407,11 @@ header{
             .nav-left{
 
                 a{
+                    transition: all .5s;
+                    -webkit-transition: all .5s;
+                    -moz-transition: all .5s;
+                    -ms-transition: all .5s;
+                    -o-transition: all .5s;
                     letter-spacing: 1px;
                     font-size: 14px;
                     margin-left: 18px;
@@ -382,18 +422,38 @@ header{
 }
     .content-section{
         .content-left{
+            transition: all .5s;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            -ms-transition: all .5s;
+            -o-transition: all .5s;
             padding-left: 70px;
             .price-part{
                 padding-top: 65px;
+                transition: all .5s;
+                -webkit-transition: all .5s;
+                -moz-transition: all .5s;
+                -ms-transition: all .5s;
+                -o-transition: all .5s;
             }
         }
     .content-center{
         .sneakers-img{
             width: 735px;
+            transition: all .5s;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            -ms-transition: all .5s;
+            -o-transition: all .5s;
         }
     }
         .content-right{
             padding-top: 75px;
+            transition: all .5s;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            -ms-transition: all .5s;
+            -o-transition: all .5s;
         }
 }
 }
@@ -401,6 +461,11 @@ header{
     .content-section{
         .content-left{
             padding-left: 35px;
+            transition: all .5s;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            -ms-transition: all .5s;
+            -o-transition: all .5s;
             .reviews-text{
                 font-size: 12px;
                 padding-right: 25px;
@@ -443,10 +508,20 @@ header{
         }
         .content-center{
             .sneakers-img{
+                transition: all .5s;
+                -webkit-transition: all .5s;
+                -moz-transition: all .5s;
+                -ms-transition: all .5s;
+                -o-transition: all .5s;
                 width: 655px;
             }
         }
         .content-right{
+            transition: all .5s;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            -ms-transition: all .5s;
+            -o-transition: all .5s;
             padding-top: 60px;
     
                 .right-texts{
@@ -482,12 +557,23 @@ header{
 @media only screen and (max-width: 1023px){
     header{
         .header-content{
+            transition: all .5s;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            -ms-transition: all .5s;
+            -o-transition: all .5s;
             padding-top: 30px;
             .header-logo{
+                transition: all .5s;
+                -webkit-transition: all .5s;
+                -moz-transition: all .5s;
+                -ms-transition: all .5s;
+                -o-transition: all .5s;
                 margin-left: 20px;
             }
             nav{
                 .nav-left{
+
                     display: flex;
                     flex-direction: column;
                     margin-left: 30px;
@@ -534,9 +620,19 @@ header{
         }
     }
     .content-section{
+        transition: all .5s;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s;
         display: block;
         padding-top: 100px;
         .content-left{
+            transition: all .5s;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            -ms-transition: all .5s;
+            -o-transition: all .5s;
             position: absolute;
             left: 50%;
             margin-left: -165px;
@@ -658,7 +754,7 @@ header{
         }
         .content-center{
             .sneakers-img{
-                margin-left: 148px;
+                margin-left: 148fpx;
                 width: 320px;
             }
         }
